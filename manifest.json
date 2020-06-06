@@ -4,6 +4,7 @@
   "version": "0.0",
   "permissions": [
     "webRequest",
+    "webRequestBlocking",
     "https://app.roll20.net/editor/setcampaign/*"
   ],
   "background": {
