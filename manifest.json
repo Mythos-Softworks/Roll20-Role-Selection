@@ -5,5 +5,11 @@
   "permissions": [
     "webRequest",
     "https://app.roll20.net/editor/setcampaign/*"
-  ]
+  ],
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ],
+    "persistent": true
+  }
 }
