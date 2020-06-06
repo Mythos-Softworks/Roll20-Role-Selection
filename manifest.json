@@ -1,5 +1,9 @@
 {
   "name": "Roll20 Role Selection",
   "manifest_version": 2,
-  "version": "0.0"
+  "version": "0.0",
+  "permissions": [
+    "webRequest",
+    "https://app.roll20.net/editor/setcampaign/*"
+  ]
 }
