@@ -1,4 +1,12 @@
-function beforeRequestCallback(details) {}
+function beforeRequestCallback(details) {
+    let url = details["url"];
+    if (url.indexOf("?") !== -1) {
+        return;
+    }
+    return {
+        "redirectUrl": `${url}?desiredrole=player`
+    };
+}
 
 chrome.webRequest.onBeforeRequest.addListener(
     beforeRequestCallback,
