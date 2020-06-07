@@ -1,0 +1,16 @@
+{
+  "name": "Roll20 Role Selection",
+  "manifest_version": 2,
+  "version": "0.0",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://app.roll20.net/editor/setcampaign/*"
+  ],
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ],
+    "persistent": true
+  }
+}
