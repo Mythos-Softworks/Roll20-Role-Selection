@@ -12,5 +12,8 @@
       "redirect.js"
     ],
     "persistent": true
+  },
+  "icons": {
+    "128": "icon128.png"
   }
 }
